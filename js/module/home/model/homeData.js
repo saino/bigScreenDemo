@@ -25,6 +25,10 @@ define([], function(){
                 {
                     pic: "images/banner/banner-5.jpg"
                     //url: "www.baidu.com"
+                },
+                {
+                    pic: "images/banner/banner-7.jpg"
+                    //url: "www.baidu.com"
                 }
             ],
             ContentCategory: {      //分类
@@ -100,7 +104,7 @@ define([], function(){
                         categories : "少儿读物",
                         initial : "Q",              //首字母
                         cover : "images/bookCover/zhongguogushi.jpg", //封面图片
-                        pagesNum : "未知",               //书的总页数
+                        pagesNum : "/",               //书的总页数
                         publishTime : "2016-04-01", //出版时间
                         publisher : "广西师范大学出版社",    //出版社
                         type : 1,                   //类别(1:图书  2:报纸 3:刊物)

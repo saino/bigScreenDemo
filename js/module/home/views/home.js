@@ -81,7 +81,10 @@ define([
             self.bookDetailMessageFloatLayout && self.bookDetailMessageFloatLayout.on("tap", function(event){
                 event.preventDefault();
                 event.stopPropagation();
-                self.bookDetailMessageFloatLayout.hide();
+                if(event.target.getAttribute("id") == "book-detail-message-float-layout"){
+
+                    self.bookDetailMessageFloatLayout.hide();
+                }
             });
 
         },

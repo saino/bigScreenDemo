@@ -35,7 +35,7 @@ define([],function(){
             categories : "少儿读物",
             initial : "Q",              //首字母
             cover : "images/bookCover/zhongguogushi.jpg", //封面图片
-            pagesNum : "未知",               //书的总页数
+            pagesNum : "/",               //书的总页数
             publishTime : "2016-04-01", //出版时间
             publisher : "广西师范大学出版社",    //出版社
             type : 1,                   //类别(1:图书  2:报纸 3:刊物)
@@ -119,6 +119,45 @@ define([],function(){
             publisher : "广西师范大学出版社",    //出版社
             type : 1,                   //类别(1:图书  2:报纸 3:刊物)
             url : "http://www.agoodme.com/#/preview/tid=15644054353b5597"                   //图书的二维码地址
+        },
+        {
+            name : "《南京保卫战》",         //书名
+            author : "马振犊等",                      //作者
+            brief : "《南京大屠杀史料集》全套共25卷约1200余万字，本书所收集的材料为中国国民党军队在1937年12月为保卫当时的首都南京而与来犯的日本军队进行顽强作战的历史档案材料，包括目前能搜集到的中方有关南京保卫战的作战计划、战斗方案、作战命令及其执行情况、蒋介石以及国民党高级将领之间的往来军事函电、各参战部队的战斗详报和战役总结，当年南京保卫战的相关报道评论，以及南京保卫战参战人员的回忆录资料等等。",
+            categories : "年青读物",
+            cover : "images/bookCover/nanjingbaowei.jpg", //封面图片
+            initial : "N",              //首字母
+            pagesNum : 483,               //书的总页数
+            publishTime : "2015-07", //出版时间
+            publisher : "江苏人民出版社",    //出版社
+            type : 1,                   //类别(1:图书  2:报纸 3:刊物)
+            url : "http://glipc.gb.gli.cn/index.html?bid=100"                   //图书的二维码地址
+        },
+        {
+            name : "《东京审判》",         //书名
+            author : "杨夏鸣",                      //作者
+            brief : "作为《南京大屠杀史料集》的第七册，这一册里收集是史料主要为东京审判的内容，包括审判中的法律文件以及南京大屠杀的各种证据。",
+            categories : "年青读物",
+            cover : "images/bookCover/dongjingshenpan.jpg", //封面图片
+            initial : "D",              //首字母
+            pagesNum : 622,               //书的总页数
+            publishTime : "2015-07", //出版时间
+            publisher : "江苏人民出版社",    //出版社
+            type : 1,                   //类别(1:图书  2:报纸 3:刊物)
+            url : "http://glipc.gb.gli.cn/index.html?bid=101"                   //图书的二维码地址
+        },
+        {
+            name : "名家访谈实录",         //书名
+            author : "与神对话栏目组",                      //作者
+            brief : "“与神对话”栏目是中国创世神话项目重点文艺创作工程，专注于文化创作访谈的网络视听融媒体平台。该栏目集专访、实录、互动、花絮、合作为一体，全终端、融媒体展现中国当代文化名家风采。",
+            categories : "年青读物",
+            cover : "images/bookCover/mingjiafangtan.jpg", //封面图片
+            initial : "D",              //首字母
+            pagesNum : 13,               //书的总页数
+            publishTime : "2014-09", //出版时间
+            publisher : "与神对话栏目组",    //出版社
+            type : 1,                   //类别(1:图书  2:报纸 3:刊物)
+            url : "http://www.agoodme.com/#/preview/tid=1567a9e4761e3a46"                   //图书的二维码地址
         },
         {
             name : "晚清之后是民国",         //书名
